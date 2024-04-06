@@ -48,3 +48,15 @@ h4 {
     font-weight: 400;
     margin: 40px 0px 10px 0px;
 }
+
+p {
+    margin: 15px 0px 20px 0px;
+    padding-right: 5px;
+}   
+
+.section {
+    margin-bottom: 100px;
+    width: 90%;
+    margin: auto;
+    max-width: 660px;
+}
