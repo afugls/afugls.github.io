@@ -54,9 +54,44 @@ p {
     padding-right: 5px;
 }   
 
+a {
+    color: rgb(68, 128, 200)
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+ul {
+    display:table;
+    padding-left: 8%;
+    margin: 0px 0px;
+}
+
+li {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+li:first-of-type {
+    margin-top: 0px;
+}
+
 .section {
     margin-bottom: 100px;
     width: 90%;
     margin: auto;
     max-width: 660px;
 }
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    line-height: 120%;
+}
+
