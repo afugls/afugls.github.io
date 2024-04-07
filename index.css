@@ -103,6 +103,12 @@ table {
     margin: auto;
     max-width: 800px; /* 660 */
 }
+.section_audio_samples {
+    margin-bottom: 100px;
+    width: 90%;
+    margin: auto;
+    max-width: 2000px; /* 660 */
+}
 
 .text {
     font-size: 16px;
