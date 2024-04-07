@@ -103,11 +103,12 @@ table {
     margin: auto;
     max-width: 800px; /* 660 */
 }
+
 .section_audio_samples {
     margin-bottom: 100px;
     width: 90%;
     margin: auto;
-    max-width: 2000px; /* 660 */
+    max-width: 2300px; /* 660 */
 }
 
 .text {
@@ -115,5 +116,14 @@ table {
     text-align: center;
     font-style: italic;
     line-height: 120%;
+}
+.playlist-title-text {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    text-align: center;
+    display: block;
+    margin: 0px 20%;
+    margin-top: 30px;
 }
 

@@ -25,10 +25,9 @@
 <p>The following audio samples have all been loudness normalized.</p>
 </div>
 <hr>
-<div class="section">
-    <h3>Far-end <b>Babble</b> noise and Near-end <b>Car</b> noise</h3>
-</div>
 <div class='section_audio_samples'>
+    <!-- <h1>Far-end <b>Babble</b> noise and Near-end <b>Car</b> noise</h1> -->
+    <p class="playlist-title-text">Far-end <b>Babble</b> noise and Near-end <b>Car</b> noise</p>
     <table border="1">
         <tbody>
             <tr>
@@ -36,57 +35,226 @@
                     Systems
                 </th>
                 <th>
-                    Audio
+                    Far-end SNR = -12.5 dB<BR> Near-end SNR = -40 dB
+                </th>
+                <th>
+                    Far-end SNR = -7.5 dB<BR> Near-end SNR = -30 dB
+                </th>
+                <th>
+                    Far-end SNR = 0 dB<BR> Near-end SNR = -10 dB
+                </th>
+                <th>
+                    Far-end SNR = 15 dB<BR> Near-end SNR = 5 dB
                 </th>
             </tr>
             <tr>
                 <td width="200" align="center">Noisy unprocessed</td>
                 <td>
-                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_ASII_joint_mic3_proc.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_unproc.wav"></audio>
                 </td>
                 <td>
-                    <audio controls><source src="./Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_unproc.wav"></audio>
                 </td>
                 <td>
-                    <audio controls><source src="./Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_unproc.wav"></audio>
                 </td>
                 <td>
-                    <audio controls><source src="./Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_unproc.wav"></audio>
                 </td>
             </tr>
             <tr>
                 <td width="120" align="center">Joint Minimum Processing</td>
                 <td>
-                    <audio controls><source src="Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
                 </td>
             </tr>
             <tr>
                 <td width="120" align="center">Blind Minimum Processing</td>
                 <td>
-                    <audio controls><source src="Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
                 </td>
             </tr>
             <tr>
                 <td width="120" align="center">Joint Maximum Processing</td>
                 <td>
-                    <audio controls><source src="Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_ASII_joint_mic3_proc.wav"></audio>
                 </td>
             </tr>
             <tr>
                 <td width="120" align="center">Blind Maximum Processing</td>
                 <td>
-                    <audio controls><source src="Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
                 </td>
             </tr>
             <tr>
                 <td width="120" align="center">Clean Speech</td>
                 <td>
-                    <audio controls><source src="Samples/NE-SNR_-2.5_FE-SNR_-5.0_noisy_unprocessed.wav"></audio>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-12.5_NE-SNR_-40.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_-7.5_NE-SNR_-30.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_0.0_NE-SNR_-10.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_babble6_NE_car_noise_FE-SNR_15.0_NE-SNR_5.0_clean.wav"></audio>
                 </td>
             </tr>
         </tbody>
     </table>
-
+</div>
+<hr>
+<div class='section_audio_samples'>
+    <!-- <h1>Far-end <b>Babble</b> noise and Near-end <b>Car</b> noise</h1> -->
+    <p class="playlist-title-text">Far-end <b>Car</b> noise and Near-end <b>Babble</b> noise</p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>
+                    Systems
+                </th>
+                <th>
+                    Far-end SNR = -40 dB<BR> Near-end SNR = -20 dB
+                </th>
+                <th>
+                    Far-end SNR = -10 dB<BR> Near-end SNR = -10 dB
+                </th>
+                <th>
+                    Far-end SNR = -5 dB<BR> Near-end SNR = -5 dB
+                </th>
+                <th>
+                    Far-end SNR = 5 dB<BR> Near-end SNR = 20 dB
+                </th>
+            </tr>
+            <tr>
+                <td width="200" align="center">Noisy unprocessed</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_unproc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_unproc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_unproc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_unproc.wav"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td width="120" align="center">Joint Minimum Processing</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_Fugl23_JMP_def_blind_Zahe21Fugl23_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td width="120" align="center">Blind Minimum Processing</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_MP_blind_zahedi_fuglsig_mu_mwf=5_mu_ref=0_mic3_proc.wav"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td width="120" align="center">Joint Maximum Processing</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_ASII_joint_mic3_proc.wav"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td width="120" align="center">Blind Maximum Processing</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_Blind_MWF_mu=0_asii_nle_mic3_proc.wav"></audio>
+                </td>
+            </tr>
+            <tr>
+                <td width="120" align="center">Clean Speech</td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-40.0_NE-SNR_-20.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-10.0_NE-SNR_-10.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_-5.0_NE-SNR_-5.0_clean.wav"></audio>
+                </td>
+                <td>
+                    <audio controls><source src="./Samples/FE_car_NE_babble6_noise_FE-SNR_5.0_NE-SNR_20.0_clean.wav"></audio>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
