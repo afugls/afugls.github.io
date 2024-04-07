@@ -94,6 +94,7 @@ hr {
 
 table {
     margin: 0 auto; /* or margin: 0 auto 0 auto */
+    border: 2;
   }
 
 .section {
